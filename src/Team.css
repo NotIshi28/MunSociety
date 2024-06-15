@@ -1,0 +1,26 @@
+.select{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    font-family: 'poppins';
+    font-size: 3vw;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-top: 2vw;
+}
+
+.headButton{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+

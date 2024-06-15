@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+.Hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vw;
+  background: url(assets\bg.png), black;
+  background-clip: text;
+  color: transparent;
+  
+}
+.heading1{
+  font-size: 40vw;
+  font-family: 'Poppins';
+  font-weight: 800;
+  height: 60vw;
+}
+.heading2{
+  width: 55%;
+  text-align: right;
+  font-family: 'Poppins';
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.lineGrp{
+width: 100%;
+height: 50vw;
+}
+
+.l1{
+background-color: #0578FF;
+}
+
+.l2{
+  color: #5FA9FF;
+}
+
+.l3{
+color: #CDE4FF;
+}
+
+.info{
+display: flex;
+flex-direction: row;
+margin-top: 10vw;
+margin-bottom:10vw;
+margin-left: 15vw;
+margin-right: 15vw;
+/* justify-content: center; */
+align-items: center;
+justify-content: space-between;
+gap: 2vw;
+}
+
+.img1{
+  width: 40vw;
+}
+
+.text{
+display: flex;
+flex-direction: column;
+gap: 5vw;
+}
+
+.about{
+
+}
+
+.aboutHead{
+  background: linear-gradient(183deg, #0578FF 2.45%, #8CC1FF 98.24%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+.aboutInfo{
+  font-family: 'Poppins';
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+.contact{
+  height: 9.6vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  background-color: #0578FF;
+  padding-top: 2vw;
+}
+
+.headCon{
+  font-family: Poppins;
+  font-size: 2.5vw;
+  font-weight: 600;
+  color: #fff;
+}
+
+.conInfo{
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5FA9FF;
+  padding-top: 2vw;
+  gap: 1vw;
+}
+
+.headFooter{
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.footInfo{
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+  margin-top: 1.2vw;
+}
+
+.ts{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vw;
+  
+}
+
+.school{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.1vw;
+  font-weight: 300;
+}
+
+.love{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.1vw;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
