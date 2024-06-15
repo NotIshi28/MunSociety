@@ -4,6 +4,8 @@ import { useState } from 'react'
 import MemberGrid from './components/MemberGrid.jsx';
 import AlumniGrid from './components/AlumniGrid.jsx';
 import './Team.css'
+import Footer from './components/Footer.jsx';
+import MentorGrid from './components/MentorGrid.jsx';
 
 const Team = () => {
     const [activeTab, setActiveTab] = useState('Team');
@@ -20,11 +22,16 @@ const Team = () => {
                 <button className='headButton' onClick={() => handleTabClick('Alumni')} style={{ color: selectedTab === 'Alumni' ? '#0578FF' : '#000' }}>Alumni</button>
             </div>
             {selectedTab === 'Members' && (
-                <MemberGrid/>
+                <>
+                    <MemberGrid />
+                    <MentorGrid />
+                </>
             )}
             {selectedTab === 'Alumni' && (
                 <AlumniGrid/>
             )}
+
+            <Footer/>
         </>
     )
 }
