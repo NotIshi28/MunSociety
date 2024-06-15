@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar.jsx'
 import tsLogo from "../src/assets/ts.svg"
+import pic from "../src/assets/pic.svg"
 
 function App() {
   const [activeTab, setActiveTab] = useState('Home');
@@ -11,7 +12,7 @@ function App() {
     <>
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
 
-      <img src="src\assets\pic.svg" alt="" className='Hero'/>
+      <img src={pic} alt="" className='Hero'/>
 
       <svg width="100%" height="201" viewBox="0 0 1920 201" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="1920" height="67" fill="#0578FF"/>
