@@ -21,6 +21,10 @@ const router = createBrowserRouter([
     element: <Navigate to='/' />,
   },
   {
+    path:"/AMIGMUN'24",
+    element: <Navigate to='/amigmun' />
+  },
+  {
     path: "/about",
     element: <h1>About</h1>,
   },

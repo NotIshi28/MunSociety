@@ -5,7 +5,7 @@ import logo from "../assets/logo.png"
 
 const Navbar = ({activeTab, setActiveTab}) => {
 
-const tabs = ['Home', 'Team', 'Amigmun', 'Achievements'];
+const tabs = ['Home', 'Team', "AMIGMUN'24", 'Achievements'];
 
 return (
     <>
