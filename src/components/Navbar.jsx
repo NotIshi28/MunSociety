@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link, redirect } from 'react-router-dom';
+import logo from "../src/assets/logo.png"
 
 const Navbar = ({activeTab, setActiveTab}) => {
 
@@ -10,7 +11,7 @@ return (
     <>
         <div className="group" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between',alignItems: 'center', width: '100%',boxSizing: 'border-box'}}>
             <div className='logo' style={{width:30}}>
-                <img style={{width: 105.6, height: 92.8, marginLeft: 10}} src="src\assets\logo.png" />
+                <img style={{width: 105.6, height: 92.8, marginLeft: 10}} src={logo} />
             </div>
             
             <div className="elements">

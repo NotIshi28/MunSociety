@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar.jsx'
 import tsLogo from "../src/assets/ts.svg"
 import pic from "../src/assets/pic.svg"
+import yt from "../src/assets/yt.svg"
 
 function App() {
   const [activeTab, setActiveTab] = useState('Home');
@@ -81,7 +82,7 @@ function App() {
 
           {/* youtube */}
           <a href="">
-            <img src="src\assets\yt.svg" alt="" />
+            <img src={yt} alt="" />
           </a>
         </div>
 
