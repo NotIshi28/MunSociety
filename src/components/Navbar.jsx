@@ -9,9 +9,9 @@ const tabs = ['Home', 'Team', "AMIGMUN'24", 'Achievements'];
 
 return (
     <>
-        <div className="group" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between',alignItems: 'center', width: '100%',boxSizing: 'border-box'}}>
+        <div className="group" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between',alignItems: 'center', width: '100%',boxSizing: 'border-box', marginTop:"1vw", marginBottom:"1vw"}}>
             <div className='logo' style={{width:30}}>
-                <img style={{width: 105.6, height: 92.8, marginLeft: 10}} src={logo} />
+                <img style={{width: 105.6, height: 92.8, marginLeft: "1vw"}} src={logo} />
             </div>
             
             <div className="elements">

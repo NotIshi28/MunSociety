@@ -55,7 +55,7 @@ const Amigmun = () => {
                         <span>{timeLeft.seconds} Seconds</span>
                     </>
                     ) : (
-                    <span>Event has passed</span>
+                    <span>o damn</span>
                     )}
                 </div>
             </div>
