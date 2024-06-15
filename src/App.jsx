@@ -86,7 +86,7 @@ function App() {
         <div className="ts">
           <div className="school">Amity International School Sector-46 © 2024</div>
           <div className="love">Made with 🤍 by Yuvraj & Ishit</div>
-          <img src="src\assets\ts.svg" alt="" style={{width:'3vw', alignSelf:'center', marginBottom:'1vw'}}/>
+          <img src="../assets/ts.svg" alt="" style={{width:'3vw', alignSelf:'center', marginBottom:'1vw'}}/>
         </div>
 
       </div>
