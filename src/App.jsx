@@ -6,6 +6,7 @@ import Navbar from './components/Navbar.jsx'
 import tsLogo from "../src/assets/ts.svg"
 import pic from "../src/assets/pic.svg"
 import yt from "../src/assets/yt.svg"
+import info from "../src/assets/info.png"
 
 function App() {
   const [activeTab, setActiveTab] = useState('Home');
@@ -47,7 +48,7 @@ function App() {
         </div>
 
         <div className="img">
-          <img src="src\assets\info.png" alt="" className='img1'/>
+          <img src={info} alt="" className='img1'/>
         </div>
       </div>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link, redirect } from 'react-router-dom';
-import logo from "../src/assets/logo.png"
+import logo from "../assets/logo.png"
 
 const Navbar = ({activeTab, setActiveTab}) => {
 

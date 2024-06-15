@@ -11,7 +11,7 @@ body{
   align-items: center;
   width: 100%;
   height: 40vw;
-  background: url(assets\bg.png), black;
+  /* background: url(assets\bg.png), black; */
   background-clip: text;
   color: transparent;
   
