@@ -67,47 +67,47 @@ const Amigmun = () => {
             <div className="sec-grp">
               <div className="sec-cards">
                   <b>Ms. Vandana P.</b>
-                  Chef de Cabinet
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Chef de Cabinet</span>
               </div>
               <div className="sec-cards">
                   <b>Ms. Manisha Sharma</b>
-                  IT Head
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >IT Head</span>
               </div>
               <div className="sec-cards">
                   <b>TBD</b>
-                  IP Head
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >IP Head</span>
               </div>
               <div className="sec-cards">
                   <b>Aditya Rajesh Singh</b>
-                  Secretary General
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Secretary General</span>
               </div>
               <div className="sec-cards">
                   <b>Samarth Bhargava</b>
-                  Deputy Secretary General
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Deputy Secretary General</span>
               </div>
               <div className="sec-cards">
                   <b>Manvi Yadav</b>
-                  USG Logistics
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >USG Logistics</span>
               </div>
               <div className="sec-cards">
                   <b>Rahil Kharbanda</b>
-                  USG Delegate Affairs
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >USG Delegate Affairs</span>
               </div>
               <div className="sec-cards">
                   <b>Yuvraj Mehta</b>
-                  USG Technical Affairs
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >USG Technical Affairs</span>
               </div>
               <div className="sec-cards">
                   <b>Amogh Agrawal</b>
-                  USG Videography
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >USG Videography</span>
               </div>
               <div className="sec-cards">
                   <b>Ranya Sharma</b>
-                  Editor-in-Chief
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Editor-in-Chief</span>
               </div>
               <div className="sec-cards">
                   <b>-</b>
-                  Associate Editor
+                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Associate Editor</span>
               </div>
 
             </div>

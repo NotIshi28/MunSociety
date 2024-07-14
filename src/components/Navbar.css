@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 } 
+
 .elements{
     /* width:45%; */
     display: flex;
@@ -19,7 +20,12 @@
 }
 
 .element-selected{
-    border:.3vw solid #0578FF;
+    /* padding-bottom: 0.3; */
+    /* border-bottom-style: solid;
+    border-bottom-width: 1px; */
+
+    text-decoration: underline #8CC1FF 5px;
+    text-underline-position: under;
     padding-left: 1vw;
     padding-right:1vw;
     border-radius: 6px;
