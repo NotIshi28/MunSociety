@@ -65,10 +65,10 @@ function App() {
         <p className="footInfo">
           Do check our social pages to get updated for upcoming events. For more info these are our links given below.
         </p>
-        <div className="socials">
+        <div className="socials1">
           {/* insta */}
           <a href="">
-            <svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="30" cy="30.6875" r="29.5" stroke="white"/>
               <circle cx="30" cy="30.6875" r="29.5" stroke="white"/>
               <path d="M29.4016 22.5852C24.8337 22.5852 21.0488 26.3048 21.0488 30.9379C21.0488 35.5711 24.7684 39.2907 29.4016 39.2907C34.0347 39.2907 37.7543 35.5058 37.7543 30.9379C37.7543 26.37 33.9695 22.5852 29.4016 22.5852ZM29.4016 36.2889C26.4651 36.2889 24.0506 33.8744 24.0506 30.9379C24.0506 28.0014 26.4651 25.587 29.4016 25.587C32.3381 25.587 34.7525 28.0014 34.7525 30.9379C34.7525 33.8744 32.3381 36.2889 29.4016 36.2889Z" fill="white"/>
@@ -86,7 +86,7 @@ function App() {
         <div className="ts">
           <div className="school">Amity International School Sector-46 © 2024</div>
           <div className="love">Made with 🤍 by Yuvraj & Ishit</div>
-          <a href="https://techsyndicate.us">
+          <a href="https://techsyndicate.us" style={{width:'3vw', alignSelf:'center', marginBottom:'1vw'}}>
             <img src={tsLogo} alt="" style={{width:'3vw', alignSelf:'center', marginBottom:'1vw'}}/>
           </a> 
         </div>
