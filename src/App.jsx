@@ -38,11 +38,7 @@ function App() {
           <div className="aim">
             <h1 className="aboutHead">Our Aim</h1>
               <div className="aboutInfo">
-                The MUN society is a prestigious society
-                founded in 2016. This society is based
-                on spirit of fraternity and stays the
-                same in victory and loss. We believe in
-                diplomacy and team spirit.
+              Model United Nations (MUN) is an academic simulation of the United Nations or any committee to educate participants about current affairs, international relations, diplomacy, teamwork & inculcates constructive discussions and solutions. The spirit of society is one of fraternity and we remain the same in both wins and losses
               </div>
           </div>
         </div>

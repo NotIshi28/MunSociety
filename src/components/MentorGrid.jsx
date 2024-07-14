@@ -9,8 +9,11 @@ const MentorGrid = () => {
             <div className="member-grid">
             {mentors.map((member) => (
             <div key={member.id} className="member-card">
-                <h3>{member.name}</h3>
-                <p style={{marginBottom:'2vw'}} >{member.post}</p>
+                <img style={{width:'100%'}} src={member.img} alt="Logo"/>
+                <div className="card-text">
+                    <h3>{member.name}</h3>
+                    <p style={{marginBottom:'2vw'}} >{member.post}</p>
+                </div>
             </div>
             ))}
         </div>

@@ -39,11 +39,3 @@ return (
 }
 
 export default Navbar
-
-
-{/* <div className="elements">
-//             <div className="element-selected element">Home</div>
-//             <div className="element">Team</div>
-//             <div className="element">AMIGMUN'24</div>
-//             <div className="element">Achievements</div>
-//         </div> */}

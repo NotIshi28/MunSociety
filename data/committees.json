@@ -1,0 +1,69 @@
+[
+    {
+        "name": "UN General Assembly",
+        "agenda": "Nuclear Disarmament and Weaponization of AI (DD)",
+        "whatsapp": "https://chat.whatsapp.com/Buc9GDGQBJoIoIr5Y8tlQd",
+        "matrix": "techsyndicate.us",
+        "backgroundGuide": "techsyndicate.us",
+        "executiveBoard": {
+          "chairperson": "Bhavya Batra",
+          "viceChairperson": "Rahil Kharbanda",
+          "rapporteur": "Disha Dhir"
+        }
+      },
+      {
+        "name": "UN Environmental Programme",
+        "agenda": "Impact of AI on Environmental Conservation and Global Warming Mitigation",
+        "whatsapp": "https://chat.whatsapp.com/GUiYSZA4xMsARZ4NAY54TP",
+        "matrix": "",
+        "backgroundGuide": "",
+        "executiveBoard": {
+          "chairperson": "Aditya Singh",
+          "viceChairperson": "Meet Kaur"
+        }
+      },
+      {
+        "name": "Economic and Social Council",
+        "agenda": "Challenges of digital public infrastructure in social and political spheres",
+        "whatsapp": "https://chat.whatsapp.com/CODxvweqXx84Eag5b1OfnB",
+        "matrix": "",
+        "backgroundGuide": "",
+        "executiveBoard": {
+          "chairperson": "Pranav Aggarwal",
+          "viceChairperson": "Aryaman Singh"
+        }
+      },
+      {
+        "name": "UN Human Rights Council",
+        "agenda": "Discussing Right to Self Determination and its implications on Human Rights with emphasis on Israel-Palestine (DD)",
+        "whatsapp": "https://chat.whatsapp.com/ET1FuZesYlI8yHrx2Pzuv4",
+        "matrix": "",
+        "backgroundGuide": "",
+        "executiveBoard": {
+          "coChairperson": "Gatik Yadav",
+          "viceChairperson": "Parth Katoch"
+        }
+      },
+      {
+        "name": "Indian War Cabinet",
+        "agenda": "Sri Lankan Crisis (Freeze Date 1987)",
+        "whatsapp": "https://chat.whatsapp.com/CN1F69CZyDyBT6MaMcqfm2",
+        "matrix": "",
+        "backgroundGuide": "",
+        "executiveBoard": {
+          "presidentOfIndia": "Krishay Srivastava",
+          "primeMinisterOfIndia": "Manvi Yadav"
+        }
+      },
+      {
+        "name": "All India Political Parties Meet",
+        "agenda": "University entrance exams with special emphasis on the responsibilities of the NTA",
+        "whatsapp": "https://chat.whatsapp.com/D1nZdHKkPgUCjtlOkJcO3D",
+        "matrix": "",
+        "backgroundGuide": "",
+        "executiveBoard": {
+          "moderator": "Shreeman Tripathi",
+          "deputyModerator": "Gauri Mishra"
+        }
+      }
+]

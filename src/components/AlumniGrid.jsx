@@ -1,6 +1,6 @@
 import React from 'react'
 import members from '../../data/alumni.json'
-import './MemberGrid.css'
+import './AlumniGrid.css'
 import { Component } from "react";
 
 export default class AlumniGrid extends Component {

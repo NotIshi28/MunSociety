@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import { useState, useEffect } from 'react';
 import './Amigmun.css'
-
+import committees from '../data/committees.json'
+import collage from '../src/assets/collage.png'
 const Amigmun = () => {
 
     const calculateTimeLeft = () => {
@@ -39,13 +40,13 @@ const Amigmun = () => {
     return (
         <>
             <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-            <div className='amigHead'>AMIGMUN ‘24 is Coming Soon!</div>
+            <div className='amigHead'>AMIGMUN ‘24 is Here!</div>
             <div className="lineGrp">
                 <div className="l1"></div>
                 <div className="l2"></div>
             </div>
 
-            <div className="countdown">
+            {/* <div className="countdown">
                 <div>
                     {timeLeft.days !== undefined ? (
                     <>
@@ -58,7 +59,139 @@ const Amigmun = () => {
                     <span>o damn</span>
                     )}
                 </div>
+            </div> */}
+
+
+            <h1 className='sec'>Secretariat</h1>
+
+            <div className="sec-grp">
+              <div className="sec-cards">
+                  <b>Ms. Vandana P.</b>
+                  Chef de Cabinet
+              </div>
+              <div className="sec-cards">
+                  <b>Ms. Manisha Sharma</b>
+                  IT Head
+              </div>
+              <div className="sec-cards">
+                  <b>TBD</b>
+                  IP Head
+              </div>
+              <div className="sec-cards">
+                  <b>Aditya Rajesh Singh</b>
+                  Secretary General
+              </div>
+              <div className="sec-cards">
+                  <b>Samarth Bhargava</b>
+                  Deputy Secretary General
+              </div>
+              <div className="sec-cards">
+                  <b>Manvi Yadav</b>
+                  USG Logistics
+              </div>
+              <div className="sec-cards">
+                  <b>Rahil Kharbanda</b>
+                  USG Delegate Affairs
+              </div>
+              <div className="sec-cards">
+                  <b>Yuvraj Mehta</b>
+                  USG Technical Affairs
+              </div>
+              <div className="sec-cards">
+                  <b>Amogh Agrawal</b>
+                  USG Videography
+              </div>
+              <div className="sec-cards">
+                  <b>Ranya Sharma</b>
+                  Editor-in-Chief
+              </div>
+              <div className="sec-cards">
+                  <b>-</b>
+                  Associate Editor
+              </div>
+
             </div>
+
+            <div style={{width:'100%', height:'3.5vw', background: 'linear-gradient(90deg, #0578FF -5.97%, #5FA9FF 157.36%)', marginTop:'5vw'}}></div>
+            <div style={{width:'100%', height:'3.5vw', backgroundColor:'#5FA9FF'}}></div>
+            <div style={{width:'100%', height:'3.5vw', backgroundColor:'#CDE4FF'}}></div>
+
+            <h1 className='sec' style={{marginTop:'5vw'}}>Committees</h1>
+
+            <div className="com-grp">
+              {committees.map((committee)=>(
+                  <div className="com-card">
+                    <div className="name">{committee.name}</div>
+                    <div className="agenda" style={{marginBottom:"1vw", marginTop:"1vw"}}>Agenda: {committee.agenda}</div>
+                    <div className="eb">
+                      {committee.executiveBoard.chairperson && (
+                        <div>
+                          <b>Chairperson - </b>{committee.executiveBoard.chairperson}
+                        </div>
+                      )}
+                      {committee.executiveBoard.coChairperson && (
+                        <div>
+                          <b>Co Chairperson - </b>{committee.executiveBoard.coChairperson}
+                          <b>Co Chairperson - </b>{committee.executiveBoard.coChairperson1}
+                        </div>
+                      )}
+                      {committee.executiveBoard.viceChairperson && (
+                        <div>
+                          <b>Vice Chairperson - </b>{committee.executiveBoard.viceChairperson}
+                        </div>
+                      )}
+                      {committee.executiveBoard.rapporteur && (
+                        <div>
+                          <b>Rapporteur - </b>{committee.executiveBoard.rapporteur}
+                        </div>
+                      )}
+                      {committee.executiveBoard.primeMinisterOfIndia && (
+                        <div>
+                          <b>Prime Minister Of India - </b>{committee.executiveBoard.primeMinisterOfIndia}
+                        </div>
+                      )}
+                      {committee.executiveBoard.presidentOfIndia && (
+                        <div>
+                          <b>President Of India - </b>{committee.executiveBoard.presidentOfIndia}
+                        </div>
+                      )}
+                      {committee.executiveBoard.moderator && (
+                        <div>
+                          <b>Moderator - </b>{committee.executiveBoard.moderator}
+                        </div>
+                      )}
+                      {committee.executiveBoard.deputyModerator && (
+                        <div>
+                          <b>Deputy Moderator - </b>{committee.executiveBoard.deputyModerator}
+                        </div>
+                      )}
+                    </div>
+                    <div className="socials">
+                      <div>Whatsapp: <a href={committee.whatsapp}>Click Here</a> </div>
+                      <div>Matrix: <a href='https://docs.google.com/spreadsheets/d/1xgHD3FujmnzpVQOlsrXiqVfTCRGF-B1RQszLD4CFtIM/edit?usp=sharing'>Click Here</a></div>
+                      <div>Background Guide:</div>
+                    </div>
+                  </div>
+              ))}
+            </div>
+            
+            <div style={{width:'100%', height:'3.5vw', backgroundColor:'#CDE4FF', marginTop:'5vw'}}></div>
+            <div style={{width:'100%', height:'3.5vw', backgroundColor:'#5FA9FF'}}></div>
+            <div style={{width:'100%', height:'3.5vw', background: 'linear-gradient(90deg, #0578FF -5.97%, #5FA9FF 157.36%)'}}></div>
+
+            <h1 className='sec' style={{marginTop:'5vw'}}>Gallery</h1>
+
+            <div className="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/BV46b6M1Hps?si=WC96PVbpSh5XrP8E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div className="img">
+              <img src={collage} alt="collage" style={{width:"80%"}}/>
+            </div>
+
+            <div style={{width:'100%', height:'3.5vw', backgroundColor:'#CDE4FF', marginTop:'8vw'}}></div>
+            <div style={{width:'100%', height:'3.5vw', backgroundColor:'#5FA9FF'}}></div>
+            <div style={{width:'100%', height:'3.5vw', background: 'linear-gradient(90deg, #0578FF -5.97%, #5FA9FF 157.36%)'}}></div>
         </>
     )
 }

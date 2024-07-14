@@ -1,19 +1,22 @@
 [
-    {
+  {
       "name": "Mr. Ashok K Chauhan",
-      "post": "Founder"
-    },
-    {
+      "post": "Founder",
+      "img": "/src/assets/mentor/founder.png"
+  },
+  {
       "name": "Dr. Amita Chauhan",
-      "post": "Chairperson"
-    },
-    {
+      "post": "Chairperson",
+      "img": "/src/assets/mentor/chairperson.png"
+  },
+  {
       "name": "Mrs. Arti Chopra",
-      "post": "Principal"
-    },
-    {
+      "post": "Principal",
+      "img": "/src/assets/mentor/principal.png"
+  },
+  {
       "name": "Ms. Vandana Parashar",
-      "post": "Teacher In-charge"
-    }
-  ]
-  
+      "post": "Teacher In-charge",
+      "img": "/src/assets/mentor/teacher-in-charge.png"
+  }
+]

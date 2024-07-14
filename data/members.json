@@ -1,46 +1,57 @@
 [
-    {
-      "name": "Manvi Yadav",
-      "post": "President"
-    },
-    {
-      "name": "Aryaman Singh",
-      "post": "Vice President"
-    },
-    {
-      "name": "Rahil Kharbanda",
-      "post": "Vice President"
-    },
-    {
-      "name": "Meet Kaur",
-      "post": "Executive Director"
-    },
-    {
-      "name": "Parth Katoch",
-      "post": "Executive Director"
-    },
-    {
-      "name": "Disha Dhir",
-      "post": "Head: Core Committee"
-    },
-    {
-      "name": "Kushagra Setia",
-      "post": "Core Member"
-    },
-    {
-      "name": "Namya Borah",
-      "post": "Core Member"
-    },
-    {
-      "name": "Divit Sen",
-      "post": "Core Member"
-    },
-    {
-      "name": "Vanya Saluja",
-      "post": "Core Member"
-    },
-    {
-      "name": "Saanvi Rana",
-      "post": "Core Member"
-    }
+  {
+    "name": "Manvi Yadav",
+    "post": "President",
+    "img": "/src/assets/members/manvi.png"
+  },
+  {
+    "name": "Aryaman Singh",
+    "post": "Vice President",
+    "img": "/src/assets/members/arya.png"
+  },
+  {
+    "name": "Rahil Kharbanda",
+    "post": "Vice President",
+    "img": "/src/assets/members/rahil.png"
+  },
+  {
+    "name": "Meet Kaur",
+    "post": "Executive Director",
+    "img": "/src/assets/members/meet.png"
+  },
+  {
+    "name": "Parth Katoch",
+    "post": "Executive Director",
+    "img": "/src/assets/members/parth.png"
+  },
+  {
+    "name": "Disha Dhir",
+    "post": "Head: Core Committee",
+    "img": "/src/assets/members/disha.png"
+  },
+  {
+    "name": "Kushagra Setia",
+    "post": "Core Member",
+    "img": "/src/assets/members/kush.png"
+  },
+  {
+    "name": "Namya Borah",
+    "post": "Core Member",
+    "img": "/src/assets/members/namya.png"
+  },
+  {
+    "name": "Divit Sen",
+    "post": "Core Member",
+    "img": "/src/assets/members/divit.png"
+  },
+  {
+    "name": "Vanya Saluja",
+    "post": "Core Member",
+    "img": "/src/assets/members/vanya.png"
+  },
+  {
+    "name": "Saanvi Rana",
+    "post": "Core Member",
+    "img": "/src/assets/members/sanvi.png"
+  }
 ]

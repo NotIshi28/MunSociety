@@ -4,12 +4,13 @@ import { Navigate } from 'react-router-dom'
 import App from './App.jsx'
 import Team from  './Team.jsx'
 import Amigmun from './Amigmun.jsx'
-
+import Achievements from './Achievements.jsx'
 import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path:"/amigmun",
     element: <Amigmun/>
+  },
+  {
+    path: "/achievements",
+    element: <Achievements />
   }
 ]);
 
