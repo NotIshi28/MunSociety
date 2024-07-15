@@ -92,7 +92,7 @@
 .com-card{
     width: 28%;
     border: 0.1vw solid #ADADAD;
-    height: 18vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
