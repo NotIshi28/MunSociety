@@ -8,9 +8,9 @@
     flex-direction: row;
     gap: 2vw;
     font-family: 'poppins';
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-weight: 600;
-    margin-left: 15%;
+    margin-left: 9.8%;
     margin-top: 2vw;
 }
 
@@ -24,3 +24,45 @@
 	outline: inherit;
 }
 
+
+.member-grid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    justify-content: left;
+    width: 80%;
+    margin-left: 10%;
+    gap: 2.66%;
+}
+
+.member-card{
+    width: 22.6%;
+    /* width: auto; */
+    border-radius: 6px 5px 0px 0px;
+    border-top: 1px solid #ADADAD;
+    border-right: 1px solid #ADADAD;
+    border-left: 1px solid #ADADAD;
+    border-bottom: 1px solid #ADADAD;
+    font-family: 'poppins';
+    border-radius: 7px;
+    text-align: left;
+    padding: 0vw;
+    margin-bottom: 2vw;
+    /* height: 18vw; */
+}
+
+.ctext{
+    color: #000;
+    margin-left: 1vw;
+    font-size: 1.1vw;
+}
+
+.cname{
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-top: 1vw;
+}
+
+.alum-card{
+    color: aliceblue;
+}

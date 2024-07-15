@@ -84,19 +84,24 @@
     flex-wrap: wrap;
     margin-top: 5vw;
     justify-content: center;
-    width: 80%;
-    margin-left: 10%;
-    gap: 3%;
+    width: 94%;
+    margin-left: 3%;
+    gap: 4%;
 }
 
 .com-card{
     width: 28%;
     border: 0.1vw solid #ADADAD;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'poppins';
     border-radius: 7px;
     text-align: left;
     padding: 1vw;
     margin-bottom: 2vw;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .socials{
@@ -123,4 +128,8 @@
     justify-content: center;
     align-items: center;
     
+}
+
+.ltext{
+    color:#7E7E7E
 }

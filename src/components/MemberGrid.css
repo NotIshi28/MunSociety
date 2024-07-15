@@ -3,14 +3,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 5vw;
-    justify-content: center;
+    justify-content: left;
     width: 80%;
     margin-left: 10%;
-    gap: 3%;
+    gap: 2.66%;
 }
 
 .member-card{
-    width: 28%;
+    width: 18%;
     /* width: auto; */
     border: 0.1vw solid black;
     font-family: 'poppins';

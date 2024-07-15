@@ -121,8 +121,8 @@ const Amigmun = () => {
             <div className="com-grp">
               {committees.map((committee)=>(
                   <div className="com-card">
-                    <div className="name">{committee.name}</div>
-                    <div className="agenda" style={{marginBottom:"1vw", marginTop:"1vw"}}>Agenda: {committee.agenda}</div>
+                    <div className="name" style={{fontSize:'1.5vw'}}>{committee.name}</div>
+                    <div className="agenda ltext" style={{marginBottom:"1vw", marginTop:"1vw"}}>Agenda: {committee.agenda}</div>
                     <div className="eb">
                       {committee.executiveBoard.chairperson && (
                         <div>
@@ -131,7 +131,7 @@ const Amigmun = () => {
                       )}
                       {committee.executiveBoard.coChairperson && (
                         <div>
-                          <b>Co Chairperson - </b>{committee.executiveBoard.coChairperson}
+                          <b>Co Chairperson - </b>{committee.executiveBoard.coChairperson} <br />
                           <b>Co Chairperson - </b>{committee.executiveBoard.coChairperson1}
                         </div>
                       )}
@@ -166,7 +166,7 @@ const Amigmun = () => {
                         </div>
                       )}
                     </div>
-                    <div className="socials">
+                    <div className="socials ltext">
                       <div>Whatsapp: <a href={committee.whatsapp}>Click Here</a> </div>
                       <div>Matrix: <a href='https://docs.google.com/spreadsheets/d/1xgHD3FujmnzpVQOlsrXiqVfTCRGF-B1RQszLD4CFtIM/edit?usp=sharing'>Click Here</a></div>
                       <div>Background Guide:</div>
