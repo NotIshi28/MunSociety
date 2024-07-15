@@ -67,7 +67,7 @@ function App() {
         </p>
         <div className="socials1">
           {/* insta */}
-          <a href="">
+          <a href="https://www.instagram.com/munsocietyaisg46/">
             <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="30" cy="30.6875" r="29.5" stroke="white"/>
               <circle cx="30" cy="30.6875" r="29.5" stroke="white"/>
@@ -78,7 +78,7 @@ function App() {
           </a>
 
           {/* youtube */}
-          <a href="">
+          <a href="https://www.youtube.com/watch?v=BV46b6M1Hps">
             <img src={yt} alt="" />
           </a>
         </div>
