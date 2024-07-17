@@ -17,6 +17,8 @@ const Team = () => {
         <>
             <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
 
+            <h1 className='heading' style={{background: "linear-gradient(90deg, #0578FF 0.01%, #8CC1FF 212%)",backgroundClip: "text", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent"} }>Mentors</h1>
+            <MentorGrid />
             <div className='heading'>
                 <button className='headButton' onClick={() => handleTabClick('Members')} style={selectedTab === 'Members' ? {background: "linear-gradient(90deg, #0578FF 0.01%, #8CC1FF 212%)",backgroundClip: "text", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent"} :{color: '#ADADAD'}}>Members</button>
                 <button className='headButton' onClick={() => handleTabClick('Alumni')} style={selectedTab === 'Alumni' ? {background: "linear-gradient(90deg, #0578FF 0.01%, #8CC1FF 212%)",backgroundClip: "text", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent"} :{color: '#ADADAD'}}>Alumni</button>
@@ -24,8 +26,6 @@ const Team = () => {
             {selectedTab === 'Members' && (
                 <>
                     <MemberGrid />
-                    <h1 className='heading' style={{background: "linear-gradient(90deg, #0578FF 0.01%, #8CC1FF 212%)",backgroundClip: "text", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent"} }>Mentors</h1>
-                    <MentorGrid />
                     <footer className='lG'>
                         <div className="ln1"></div>
                         <div className="ln2"></div>

@@ -167,9 +167,9 @@ const Amigmun = () => {
                       )}
                     </div>
                     <div className="socials ltext">
-                      <div>Whatsapp: <a href={committee.whatsapp}>Click Here</a> </div>
-                      <div>Matrix: <a href='https://docs.google.com/spreadsheets/d/1xgHD3FujmnzpVQOlsrXiqVfTCRGF-B1RQszLD4CFtIM/edit?usp=sharing'>Click Here</a></div>
-                      <div>Background Guide:</div>
+                      <div>Whatsapp: <a target="_blank"  href={committee.whatsapp}>Click Here</a> </div>
+                      <div>Matrix: <a target="_blank" href='https://docs.google.com/spreadsheets/d/1xgHD3FujmnzpVQOlsrXiqVfTCRGF-B1RQszLD4CFtIM/edit?usp=sharing'>Click Here</a></div>
+                      <div>Background Guide: <a target="_blank" href={committee.backgroundGuide}>Click Here</a> </div>
                     </div>
                   </div>
               ))}
