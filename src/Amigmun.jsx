@@ -74,7 +74,7 @@ const Amigmun = () => {
                   <span style={{fontSize:'1.2vw', fontWeight:'300'}} >IT Head</span>
               </div>
               <div className="sec-cards">
-                  <b>TBD</b>
+                  <b>Shweta Ahluwalia</b>
                   <span style={{fontSize:'1.2vw', fontWeight:'300'}} >IP Head</span>
               </div>
               <div className="sec-cards">
@@ -106,7 +106,7 @@ const Amigmun = () => {
                   <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Editor-in-Chief</span>
               </div>
               <div className="sec-cards">
-                  <b>-</b>
+                  <b>Devyanshi Goswami</b>
                   <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Associate Editor</span>
               </div>
 
