@@ -155,11 +155,11 @@ const Amigmun = () => {
                           <b>President Of India - </b>{committee.executiveBoard.presidentOfIndia}
                         </div>
                       )}
-                      {committee.executiveBoard.moderator && (
+                      {/* {committee.executiveBoard.moderator && (
                         <div>
                           <b>Moderator - </b>{committee.executiveBoard.moderator}
                         </div>
-                      )}
+                      )} */}
                       {committee.executiveBoard.deputyModerator && (
                         <div>
                           <b>Deputy Moderator - </b>{committee.executiveBoard.deputyModerator}
