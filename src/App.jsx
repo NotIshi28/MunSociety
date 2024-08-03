@@ -9,10 +9,14 @@ import yt from "../src/assets/yt.svg"
 import info from "../src/assets/info.png"
 
 function App() {
+  const url = 'https://techsyndicate.us'
+  useEffect(() => {
+    window.location.href = url;
+ }, [url]);
   const [activeTab, setActiveTab] = useState('Home');
   return (
     <>
-      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      {/* <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
 
       <img src={pic} alt="" className='Hero'/>
 
@@ -66,7 +70,7 @@ function App() {
           Do check our social pages to get updated for upcoming events. For more info these are our links given below.
         </p>
         <div className="socials1">
-          {/* insta */}
+
           <a href="https://www.instagram.com/munsocietyaisg46/">
             <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="30" cy="30.6875" r="29.5" stroke="white"/>
@@ -77,7 +81,6 @@ function App() {
             </svg>
           </a>
 
-          {/* youtube */}
           <a href="https://www.youtube.com/watch?v=BV46b6M1Hps">
             <img src={yt} alt="" />
           </a>
@@ -91,7 +94,10 @@ function App() {
           </a> 
         </div>
 
-      </div>
+      </div> */}
+
+
+
 
     </>
   )
