@@ -9,14 +9,14 @@ import yt from "../src/assets/yt.svg"
 import info from "../src/assets/info.png"
 
 function App() {
-  const url = 'https://techsyndicate.us'
-  useEffect(() => {
-    window.location.href = url;
- }, [url]);
+//   const url = 'https://techsyndicate.us'
+//   useEffect(() => {
+//     window.location.href = url;
+//  }, [url]);
   const [activeTab, setActiveTab] = useState('Home');
   return (
     <>
-      {/* <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
 
       <img src={pic} alt="" className='Hero'/>
 
@@ -94,7 +94,7 @@ function App() {
           </a> 
         </div>
 
-      </div> */}
+      </div>
 
 
 
