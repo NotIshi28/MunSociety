@@ -63,18 +63,18 @@
 }
 
 .sec-cards{
-    width: 22%;
-    height: 5.5vw;
+    width: 26%;
+    /* height: 5.5vw; */
     border: 0.1vw solid #ADADAD;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'poppins';
-    font-size: 1.35vw;
+    font-size: 1.2vw;
     border-radius: 7px;
     text-align: center;
-    padding: 1vw;
+    padding: 1.6vw;
     margin-bottom: 4vw;
 }
 
@@ -110,11 +110,6 @@
     gap: 0px;
 }
 
-.name{
-    font-size: 1.2vw;
-    font-weight: 600;
-}
-
 .video{
     display: flex;
     justify-content: center;
@@ -132,4 +127,209 @@
 
 .ltext{
     color:#7E7E7E
+}
+
+.cname{
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .amigHead {
+        height: 10vw;
+        font-size: 3vw;
+    }
+    
+    .lineGrp {
+        height: 10vw;
+    }
+    
+    .l1, .l2 {
+        height: 5vw;
+    }
+    
+    .sec {
+        font-size: 4.5vw;
+    }
+    
+    .sec-grp {
+        width: 85%;
+        margin-left: 7.5%;
+        gap: 4%;
+    }
+    
+    .sec-cards {
+        width: 30%;
+        height: 8vw;
+        font-size: 1.8vw;
+    }
+    
+    .sec-cards b {
+        font-size: 2.2vw;
+    }
+    
+    .sec-cards span {
+        font-size: 1.6vw !important;
+    }
+    
+    .com-grp {
+        width: 95%;
+        margin-left: 2.5%;
+        gap: 3%;
+    }
+    
+    .com-card {
+        width: 45%;
+        padding: 2vw;
+    }
+    
+    
+    .video iframe {
+        width: 80%;
+        height: 45vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .amigHead {
+        height: 15vw;
+        font-size: 4vw;
+        padding: 0 2vw;
+        text-align: center;
+    }
+    
+    .lineGrp {
+        height: 12vw;
+    }
+    
+    .l1, .l2 {
+        height: 6vw;
+    }
+    
+    .countdown {
+        font-size: 4vw;
+        margin-top: 10vw;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+    
+    .sec {
+        font-size: 6vw;
+        margin-top: 4vw;
+    }
+    
+    .sec-grp {
+        width: 90%;
+        margin-left: 5%;
+        gap: 4%;
+    }
+    
+    .sec-cards {
+        width: 45%;
+        height: 12vw;
+        font-size: 2.5vw;
+        padding: 2vw;
+        margin-bottom: 5vw;
+    }
+    
+    .sec-cards b {
+        font-size: 3.2vw;
+        line-height: 1.2;
+    }
+    
+    .sec-cards span {
+        font-size: 2.8vw !important;
+        line-height: 1.3;
+    }
+    
+    .com-grp {
+        width: 95%;
+        margin-left: 2.5%;
+        gap: 4%;
+    }
+    
+    .com-card {
+        width: 90%;
+        padding: 3vw;
+        margin-bottom: 4vw;
+    }
+    
+    .ltext {
+        font-size: 2.5vw;
+        line-height: 1.4;
+    }
+    
+    .cname {
+        font-size: 3vw;
+    }
+    
+    .video {
+        margin: 8vw 2vw;
+    }
+    
+    .video iframe {
+        width: 90%;
+        height: 50vw;
+    }
+    
+    .img img {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .amigHead {
+        height: 18vw;
+        font-size: 5vw;
+        padding: 0 1vw;
+    }
+    
+    .lineGrp {
+        height: 15vw;
+    }
+    
+    .l1, .l2 {
+        height: 7.5vw;
+    }
+    
+    .sec {
+        font-size: 7vw;
+        margin-top: 5vw;
+    }
+    
+    .sec-cards {
+        width: 90%;
+        padding: 10vw;
+    }
+    
+    .sec-cards b {
+        font-size: 4vw;
+        line-height: 1.2;
+    }
+    
+    .sec-cards span {
+        font-size: 3.5vw !important;
+        line-height: 1.3;
+    }
+    
+    .com-card {
+        width: 95%;
+        padding: 4vw;
+    }
+    
+    .name {
+        font-size: 4vw;
+    }
+    
+    .ltext {
+        font-size: 3vw;
+    }
+
+    .cname {
+        font-size: 4vw;
+    }
+    
+    .video iframe {
+        width: 95%;
+        height: 55vw;
+    }
 }

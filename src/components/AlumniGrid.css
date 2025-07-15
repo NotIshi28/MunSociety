@@ -19,3 +19,44 @@
     padding: 1vw;
     margin-bottom: 2vw;
 }
+
+@media screen and (max-width: 1024px) {
+    .member-grid {
+        width: 90%;
+        margin-left: 5%;
+        gap: 4%;
+    }
+    
+    .member-card {
+        width: 45%;
+        padding: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .member-grid {
+        width: 95%;
+        margin-left: 2.5%;
+        gap: 5%;
+    }
+    
+    .member-card {
+        width: 90%;
+        padding: 2vw;
+        margin-bottom: 4vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .member-grid {
+        width: 95%;
+        margin-left: 2.5%;
+        gap: 5%;
+    }
+    
+    .member-card {
+        width: 95%;
+        padding: 3vw;
+        margin-bottom: 5vw;
+    }
+}

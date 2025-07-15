@@ -87,7 +87,7 @@ function App() {
         </div>
 
         <div className="ts">
-          <div className="school">Amity International School Sector-46 © 2024</div>
+          <div className="school">Amity International School Sector-46 © 2025</div>
           <div className="love">Made with 🤍 by Yuvraj & Ishit</div>
           <a href="https://techsyndicate.us" style={{width:'3vw', alignSelf:'center', marginBottom:'1vw'}}>
             <img src={tsLogo} alt="" style={{width:'3vw', alignSelf:'center', marginBottom:'1vw'}}/>

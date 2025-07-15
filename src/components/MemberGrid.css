@@ -20,3 +20,46 @@
     margin-bottom: 2vw;
 }
 
+/* Tablet styles (768px to 1024px) */
+@media screen and (max-width: 1024px) {
+    .member-grid {
+        width: 90%;
+        margin-left: 5%;
+        gap: 3%;
+        justify-content: center;
+    }
+    
+    .member-card {
+        width: 30%;
+    }
+}
+
+/* Mobile styles (up to 768px) */
+@media screen and (max-width: 768px) {
+    .member-grid {
+        width: 95%;
+        margin-left: 2.5%;
+        gap: 4%;
+        justify-content: center;
+    }
+    
+    .member-card {
+        width: 45%;
+    }
+}
+
+/* Small mobile styles (up to 480px) */
+@media screen and (max-width: 480px) {
+    .member-grid {
+        width: 95%;
+        margin-left: 2.5%;
+        gap: 5%;
+        justify-content: center;
+    }
+    
+    .member-card {
+        width: 90%;
+        margin-bottom: 4vw;
+    }
+}
+

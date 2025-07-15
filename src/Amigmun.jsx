@@ -7,7 +7,7 @@ import collage from '../src/assets/collage.png'
 const Amigmun = () => {
 
     const calculateTimeLeft = () => {
-        const targetDate = new Date('2024-07-24T00:00:00');
+        const targetDate = new Date('2025-07-23T00:00:00');
         const now = new Date();
         const difference = targetDate - now;
     
@@ -36,11 +36,11 @@ const Amigmun = () => {
         return () => clearInterval(timer);
       }, []);
 
-    const [activeTab, setActiveTab] = useState("AMIGMUN'24");
+    const [activeTab, setActiveTab] = useState("AMIGMUN'25");
     return (
         <>
             <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-            <div className='amigHead'>AMIGMUN ‘24 is Here!</div>
+            <div className='amigHead'>AMIGMUN ‘25 is Here!</div>
             <div className="lineGrp">
                 <div className="l1"></div>
                 <div className="l2"></div>
@@ -67,47 +67,47 @@ const Amigmun = () => {
             <div className="sec-grp">
               <div className="sec-cards">
                   <b>Ms. Vandana P.</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Chef de Cabinet</span>
+                  <span>Chef de Cabinet</span>
               </div>
               <div className="sec-cards">
                   <b>Ms. Manisha Sharma</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >IT Head</span>
+                  <span>IT Head</span>
               </div>
               <div className="sec-cards">
                   <b>Shweta Ahluwalia</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >IP Head</span>
-              </div>
-              <div className="sec-cards">
-                  <b>Aditya Rajesh Singh</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Secretary General</span>
-              </div>
-              <div className="sec-cards">
-                  <b>Samarth Bhargava</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Deputy Secretary General</span>
+                  <span>IP Head</span>
               </div>
               <div className="sec-cards">
                   <b>Manvi Yadav</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >USG Logistics</span>
+                  <span>Secretary General</span>
               </div>
               <div className="sec-cards">
                   <b>Rahil Kharbanda</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >USG Delegate Affairs</span>
+                  <span>Deputy Secretary General</span>
               </div>
               <div className="sec-cards">
-                  <b>Yuvraj Mehta</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >USG Technical Affairs</span>
+                  <b>Parth Katoch</b>
+                  <span>USG Logistics</span>
               </div>
               <div className="sec-cards">
-                  <b>Amogh Agrawal</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >USG Videography</span>
+                  <b>Ishit Rastogi</b>
+                  <span>USG Technical Affairs</span>
               </div>
               <div className="sec-cards">
-                  <b>Ranya Sharma</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Editor-in-Chief</span>
+                  <b>Swastik Seth</b>
+                  <span>USG Videography</span>
               </div>
               <div className="sec-cards">
-                  <b>Devyanshi Goswami</b>
-                  <span style={{fontSize:'1.2vw', fontWeight:'300'}} >Associate Editor</span>
+                  <b>Taravali Sharma</b>
+                  <span>Editor-in-Chief</span>
+              </div>
+              <div className="sec-cards">
+                  <b>Yuvika Satija</b>
+                  <span>Associate Editor</span>
+              </div>
+              <div className="sec-cards">
+                  <b>Devangi Majumdar</b>
+                  <span>Art Editor</span>
               </div>
 
             </div>
@@ -121,7 +121,7 @@ const Amigmun = () => {
             <div className="com-grp">
               {committees.map((committee)=>(
                   <div className="com-card">
-                    <div className="name" style={{fontSize:'1.5vw'}}>{committee.name}</div>
+                    <div className="cname">{committee.name}</div>
                     <div className="agenda ltext" style={{marginBottom:"1vw", marginTop:"1vw"}}>Agenda: {committee.agenda}</div>
                     <div className="eb">
                       {committee.executiveBoard.chairperson && (
@@ -155,14 +155,34 @@ const Amigmun = () => {
                           <b>President Of India - </b>{committee.executiveBoard.presidentOfIndia}
                         </div>
                       )}
-                      {/* {committee.executiveBoard.moderator && (
+                      {committee.executiveBoard.moderator && (
                         <div>
                           <b>Moderator - </b>{committee.executiveBoard.moderator}
                         </div>
-                      )} */}
+                      )}
                       {committee.executiveBoard.deputyModerator && (
                         <div>
                           <b>Deputy Moderator - </b>{committee.executiveBoard.deputyModerator}
+                        </div>
+                      )}
+                      {committee.executiveBoard.president && (
+                        <div>
+                          <b>President - </b>{committee.executiveBoard.president}
+                        </div>
+                      )}
+                      {committee.executiveBoard.vicePresident && (
+                        <div>
+                          <b>Vice President - </b>{committee.executiveBoard.vicePresident}
+                        </div>
+                      )}
+                      {committee.executiveBoard.presidentOfUSA && (
+                        <div>
+                          <b>President Of USA - </b>{committee.executiveBoard.presidentOfUSA}
+                        </div>
+                      )}
+                      {committee.executiveBoard.vicePresidentOfUSA && (
+                        <div>
+                          <b>Vice President Of USA - </b>{committee.executiveBoard.vicePresidentOfUSA}
                         </div>
                       )}
                     </div>

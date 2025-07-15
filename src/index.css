@@ -1,4 +1,21 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 } 
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Smooth scrolling for all devices */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}

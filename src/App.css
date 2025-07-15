@@ -91,12 +91,12 @@ gap: 5vw;
 }
 
 .contact{
-  height: 9.6vw;
+  /* height: 9.6vw; */
   display: flex;
   flex-direction: column;
   padding-left: 10vw;
   background-color: #0578FF;
-  padding-top: 2vw;
+  padding: 3vw;
 }
 
 .headCon{
@@ -166,4 +166,194 @@ gap: 5vw;
   text-align: center;
   margin-top: 1vw;
   margin-bottom: 1vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .Hero {
+    height: 50vw;
+  }
+  
+  .info {
+    flex-direction: column;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    gap: 5vw;
+    text-align: center;
+  }
+  
+  .img1 {
+    width: 60vw;
+    order: -1;
+  }
+  
+  .aboutHead {
+    font-size: 4vw;
+  }
+  
+  .aboutInfo {
+    font-size: 1.5vw;
+  }
+  
+  .headCon {
+    font-size: 3.5vw;
+  }
+  
+  .conInfo {
+    font-size: 1.5vw;
+  }
+  
+  .headFooter {
+    font-size: 2.5vw;
+  }
+  
+  .footInfo {
+    font-size: 1.8vw;
+    text-align: center;
+    padding: 0 2vw;
+  }
+  
+  .school, .love {
+    font-size: 1.5vw;
+  }
+  
+  .contact {
+    padding-left: 8vw;
+    height: auto;
+    padding-bottom: 3vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Hero {
+    height: 60vw;
+  }
+  
+  .info {
+    flex-direction: column;
+    margin: 8vw 5vw;
+    gap: 8vw;
+    text-align: center;
+  }
+  
+  .img1 {
+    width: 80vw;
+    order: -1;
+  }
+  
+  .text {
+    gap: 8vw;
+  }
+  
+  .aboutHead {
+    font-size: 6vw;
+  }
+  
+  .aboutInfo {
+    font-size: 3vw;
+    line-height: 1.6;
+  }
+  
+  .contact {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: auto;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+  
+  .headCon {
+    font-size: 5vw;
+  }
+  
+  .conInfo {
+    font-size: 3vw;
+    line-height: 1.5;
+    margin-top: 2vw;
+  }
+  
+  .footer {
+    padding: 4vw 2vw;
+  }
+  
+  .headFooter {
+    font-size: 4vw;
+  }
+  
+  .footInfo {
+    font-size: 3vw;
+    text-align: center;
+    padding: 0 3vw;
+    line-height: 1.5;
+  }
+  
+  .socials1 {
+    gap: 6vw;
+    margin-top: 3vw;
+  }
+  
+  .socials1 svg, .socials1 img {
+    width: 12vw;
+    height: 12vw;
+  }
+  
+  .ts {
+    margin-top: 4vw;
+  }
+  
+  .school, .love {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Hero {
+    height: 70vw;
+  }
+  
+  .info {
+    margin: 10vw 3vw;
+    gap: 10vw;
+  }
+  
+  .img1 {
+    width: 90vw;
+  }
+  
+  .aboutHead {
+    font-size: 7vw;
+  }
+  
+  .aboutInfo {
+    font-size: 3.5vw;
+  }
+  
+  .contact {
+    padding: 5vw 3vw;
+  }
+  
+  .headCon {
+    font-size: 6vw;
+  }
+  
+  .conInfo {
+    font-size: 3.5vw;
+  }
+  
+  .headFooter {
+    font-size: 5vw;
+  }
+  
+  .footInfo {
+    font-size: 3.5vw;
+    padding: 0 2vw;
+  }
+  
+  .socials1 svg, .socials1 img {
+    width: 15vw;
+    height: 15vw;
+  }
+  
+  .school, .love {
+    font-size: 3.5vw;
+  }
 }
