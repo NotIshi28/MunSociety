@@ -1,101 +1,101 @@
 [
+  {
+    "name": "UN General Assembly",
+    "agenda": "Deliberation upon the Increasing Threat of Nuclear Proliferation with Special Emphasis on the Situation in the Middle East",
+    "whatsapp": "https://chat.whatsapp.com/LZd0wch8U7v2wIO0LeoeHI?mode=ac_c",
+    "matrix": "https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing",
+    "backgroundGuide": "https://drive.google.com/file/d/1h7t3kBsNjOpFA0OK6qF3DiemkRhgzgMG/view?usp=sharing",
+    "executiveBoard": {
+      "chairperson": "Pranav Aggarwal, Arnav Kaushik",
+      "viceChairperson": "Diya Kerur"
+    }
+    },
     {
-        "name": "UN General Assembly",
-        "agenda": "Deliberation upon the Increasing Threat of Nuclear Proliferation with Special Emphasis on the Situation in the Middle East",
-        "whatsapp": "https://chat.whatsapp.com/Buc9GDGQBJoIoIr5Y8tlQd",
-        "matrix": "techsyndicate.us",
-        "backgroundGuide": "https://drive.google.com/file/d/1h7t3kBsNjOpFA0OK6qF3DiemkRhgzgMG/view?usp=sharing",
-        "executiveBoard": {
-          "chairperson": "Pranav Aggarwal, Arnav Kaushik",
-          "viceChairperson": "Diya Kerur"
-        }
-      },
-      {
-        "name": "UN Human Rights Council",
-        "agenda": "Addressing War Crimes and Gender-Based Rights Violations in Ongoing Armed Conflicts",
-        "whatsapp": "https://chat.whatsapp.com/ET1FuZesYlI8yHrx2Pzuv4",
-        "matrix": "",
-        "backgroundGuide": "https://drive.google.com/file/d/1WusLflhRlgtXA5FLZoJpI9m8ROssq1DH/view?usp=sharing",
-        "executiveBoard": {
-          "chairperson": "Rahil Kharbanda, Amartya Chakravorty",
-          "viceChairperson": "Nitiya Chaudhary"
-        }
-      },
-      {
-        "name": "World Trade Organisation",
-        "agenda": "Evaluating the Global Impact of Protectionist Trade Policies in the Post-Trump Era",
-        "whatsapp": "https://chat.whatsapp.com/GUiYSZA4xMsARZ4NAY54TP",
-        "matrix": "",
-        "backgroundGuide": "https://drive.google.com/file/d/12x-73bR2eP9dtQdit-kKV_un6TZ-Z84g/view?usp=sharing",
-        "executiveBoard": {
-          "chairperson": "Samarth Bhargava",
-          "viceChairperson": "Meet Kaur",
-          "rapporteur": "Aatrey Garg"
-        }
-      },
-      {
-        "name": "Lok Sabha",
-        "agenda": "Deliberation on reservation policy with special emphasis on Mandal Commission",
-        "whatsapp": "https://chat.whatsapp.com/CODxvweqXx84Eag5b1OfnB",
-        "matrix": "",
-        "backgroundGuide": "https://drive.google.com/file/d/15_9lhW6UU4YS9sHt4sCHtWXoxzb86KfK/view?usp=sharing",
-        "executiveBoard": {
-          "moderator": "Vishnu Pandey",
-          "deputyModerator": "Harish Kansal"
-        }
-      },
-      {
-        "name": "NITI Aayog",
-        "agenda": "Deliberation upon the delimitation exercise with special emphasis on North-South divide",
-        "whatsapp": "https://chat.whatsapp.com/CN1F69CZyDyBT6MaMcqfm2",
-        "matrix": "",
-        "backgroundGuide": "https://drive.google.com/file/d/1DM7b2SfV0xbZW85A3w_u2QE34rD3TMoH/view?usp=sharing",
-        "executiveBoard": {
-          "chairperson": "Mehak Bansal, Divit Sen"
-        }
-      },
-      {
-        "name": "UNOOSA",
-        "agenda": "Formulating a global protocol for planetary defence against asteroid threats with special emphasis on near-earth objects (NEOs) and defence strategy to neutralise them",
-        "whatsapp": "https://chat.whatsapp.com/D1nZdHKkPgUCjtlOkJcO3D",
-        "matrix": "",
-        "backgroundGuide": "https://drive.google.com/file/d/1X0gox8fr15buuC3-EYKf-rnJcMBp0pnh/view?usp=sharing",
-        "executiveBoard": {
-          "chairperson": "Gatik Yadav",
-          "viceChairperson": "Parth Katoch"
-        }
-      },
-      {
-        "name": "HUNSC",
-        "agenda": "The Iranian Revolution, Freeze Date: 6th February 1979",
-        "whatsapp": "https://chat.whatsapp.com/D1nZdHKkPgUCjtlOkJcO3D",
-        "matrix": "",
-        "backgroundGuide": "https://drive.google.com/file/d/1X0gox8fr15buuC3-EYKf-rnJcMBp0pnh/view?usp=sharing",
-        "executiveBoard": {
-          "chairperson": "Krishay Srivastava",
-          "viceChairperson": "Disha Dhir"
-        }
-      },
-      {
-        "name": "WHSR",
-        "agenda": "Classified",
-        "whatsapp": "https://chat.whatsapp.com/D1nZdHKkPgUCjtlOkJcO3D",
-        "matrix": "",
-        "backgroundGuide": "https://drive.google.com/file/d/1X0gox8fr15buuC3-EYKf-rnJcMBp0pnh/view?usp=sharing",
-        "executiveBoard": {
-          "presidentOfUSA": "Avisha Dhiman",
-          "vicePresidentOfUSA": "Divyanshi Bansal"
-        }
-      },
-      {
-        "name": "ICJ",
-        "agenda": "Advisory Opinion/session of the ICJ-Obligations of States in respect of Climate Change",
-        "whatsapp": "https://chat.whatsapp.com/D1nZdHKkPgUCjtlOkJcO3D",
-        "matrix": "",
-        "backgroundGuide": "https://drive.google.com/file/d/1X0gox8fr15buuC3-EYKf-rnJcMBp0pnh/view?usp=sharing",
-        "executiveBoard": {
-          "president": "Pulkit Goyal",
-          "vicePresident": "Manvi Yadav"
-        }
-      }
+    "name": "UN Human Rights Council",
+    "agenda": "Addressing War Crimes and Gender-Based Rights Violations in Ongoing Armed Conflicts",
+    "whatsapp": "https://chat.whatsapp.com/FmAXtW9zu4UI29ep4Xu2RX?mode=ac_c",
+    "matrix": "https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing",
+    "backgroundGuide": "https://drive.google.com/file/d/1WusLflhRlgtXA5FLZoJpI9m8ROssq1DH/view?usp=sharing",
+    "executiveBoard": {
+      "chairperson": "Rahil Kharbanda, Amartya Chakravorty",
+      "viceChairperson": "Nitiya Chaudhary"
+    }
+    },
+    {
+    "name": "World Trade Organisation",
+    "agenda": "Evaluating the Global Impact of Protectionist Trade Policies in the Post-Trump Era",
+    "whatsapp": "https://chat.whatsapp.com/EnwutJNEc0t1qurbFJRUTr?mode=ac_c",
+    "matrix": "https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing",
+    "backgroundGuide": "https://drive.google.com/file/d/12x-73bR2eP9dtQdit-kKV_un6TZ-Z84g/view?usp=sharing",
+    "executiveBoard": {
+      "chairperson": "Samarth Bhargava",
+      "viceChairperson": "Meet Kaur",
+      "rapporteur": "Aatrey Garg"
+    }
+    },
+    {
+    "name": "Lok Sabha",
+    "agenda": "Deliberation on reservation policy with special emphasis on Mandal Commission",
+    "whatsapp": "https://chat.whatsapp.com/HPYzmxjcSk5Lh6HCgZTTYV?mode=ac_c",
+    "matrix": "https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing",
+    "backgroundGuide": "https://drive.google.com/file/d/15_9lhW6UU4YS9sHt4sCHtWXoxzb86KfK/view?usp=sharing",
+    "executiveBoard": {
+      "moderator": "Vishnu Pandey",
+      "deputyModerator": "Harish Kansal"
+    }
+    },
+    {
+    "name": "NITI Aayog",
+    "agenda": "Deliberation upon the delimitation exercise with special emphasis on North-South divide",
+    "whatsapp": "https://chat.whatsapp.com/IuR7xNkqgiH6gXX10BNqP3?mode=ac_c",
+    "matrix": "https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing",
+    "backgroundGuide": "https://drive.google.com/file/d/1DM7b2SfV0xbZW85A3w_u2QE34rD3TMoH/view?usp=sharing",
+    "executiveBoard": {
+      "chairperson": "Mehak Bansal, Divit Sen"
+    }
+    },
+    {
+    "name": "UNOOSA",
+    "agenda": "Formulating a global protocol for planetary defence against asteroid threats with special emphasis on near-earth objects (NEOs) and defence strategy to neutralise them",
+    "whatsapp": "https://chat.whatsapp.com/BaGWvir0Bpd0bNkTUqSnov?mode=ac_c",
+    "matrix": "https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing",
+    "backgroundGuide": "https://drive.google.com/file/d/1X0gox8fr15buuC3-EYKf-rnJcMBp0pnh/view?usp=sharing",
+    "executiveBoard": {
+      "chairperson": "Gatik Yadav",
+      "viceChairperson": "Parth Katoch"
+    }
+    },
+    {
+    "name": "HUNSC",
+    "agenda": "The Iranian Revolution, Freeze Date: 6th February 1979",
+    "whatsapp": "https://chat.whatsapp.com/GaVq8OLZnVtB9U7Z5BchVY?mode=ac_c",
+    "matrix": "https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing",
+    "backgroundGuide": "https://drive.google.com/file/d/1X0gox8fr15buuC3-EYKf-rnJcMBp0pnh/view?usp=sharing",
+    "executiveBoard": {
+      "chairperson": "Krishay Srivastava",
+      "viceChairperson": "Disha Dhir"
+    }
+    },
+    {
+    "name": "WHSR",
+    "agenda": "Classified",
+    "whatsapp": "https://chat.whatsapp.com/HnCKQ43tBlw7E851XNWnfr?mode=ac_c",
+    "matrix": "https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing",
+    "backgroundGuide": "https://drive.google.com/file/d/1X0gox8fr15buuC3-EYKf-rnJcMBp0pnh/view?usp=sharing",
+    "executiveBoard": {
+      "presidentOfUSA": "Avisha Dhiman",
+      "vicePresidentOfUSA": "Divyanshi Bansal"
+    }
+    },
+    {
+    "name": "ICJ",
+    "agenda": "Advisory Opinion/session of the ICJ-Obligations of States in respect of Climate Change",
+    "whatsapp": "https://chat.whatsapp.com/CNKEJPihxXa3DX4pkxJUw6?mode=ac_c",
+    "matrix": "https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing",
+    "backgroundGuide": "https://drive.google.com/file/d/1X0gox8fr15buuC3-EYKf-rnJcMBp0pnh/view?usp=sharing",
+    "executiveBoard": {
+      "president": "Pulkit Goyal",
+      "vicePresident": "Manvi Yadav"
+    }
+    }
 ]
