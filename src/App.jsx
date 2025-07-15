@@ -6,7 +6,7 @@ import Navbar from './components/Navbar.jsx'
 import tsLogo from "../src/assets/ts.svg"
 import pic from "../src/assets/pic.svg"
 import yt from "../src/assets/yt.svg"
-import info from "../src/assets/info.png"
+import info from "../src/assets/info.jpg"
 
 function App() {
 //   const url = 'https://techsyndicate.us'
