@@ -116,7 +116,7 @@ const Amigmun = () => {
             <div style={{width:'100%', height:'3.5vw', backgroundColor:'#5FA9FF'}}></div>
             <div style={{width:'100%', height:'3.5vw', backgroundColor:'#CDE4FF'}}></div>
 
-            <h1 className='sec' style={{marginTop:'5vw'}}>Committees</h1>
+            <h1 className='sec' style={{marginTop:'5vw'}}>Committees and Agendas</h1>
 
             <div className="com-grp">
               {committees.map((committee)=>(
