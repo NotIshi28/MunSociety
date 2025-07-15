@@ -60,7 +60,7 @@ function App() {
         <div className="conInfo">
           vparashar@aisg46.amity.edu (Teacher In-charge)
           <br />
-          manvi.yadav@ais.amity.edu   (Student In-charge)
+          parth.katoch@ais.amity.edu   (Student In-charge)
         </div>
       </div>
 
