@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     element: <Navigate to='/' />,
   },
   {
-    path:"/AMIGMUN'25",
+    path:"/AMIGMUN'26",
     element: <Navigate to='/amigmun' />
   },
   {

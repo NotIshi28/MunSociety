@@ -11,7 +11,7 @@ const MentorGrid = () => {
                 <img style={{width:'100%'}} src={member.img} alt="Logo"/>
                 <div className="card-text">
                     <h3 className='ctext cname' >{member.name}</h3>
-                    <p className='ctext'  style={{marginBottom:'2vw'}} >{member.post}</p>
+                    <p className='ctext'  style={{marginBottom:'1.5vw'}} >{member.post}</p>
                 </div>
             </div>
             ))}

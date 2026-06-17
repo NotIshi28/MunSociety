@@ -82,9 +82,9 @@
     background-color: #5FA9FF;
 }
 
-.ln3 {
+/* .ln3 {
     background: linear-gradient(90deg, #0578FF -5.97%, #5FA9FF 157.36%);
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .heading {

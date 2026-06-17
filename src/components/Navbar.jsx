@@ -5,7 +5,7 @@ import logo from "../assets/logo.png"
 
 const Navbar = ({activeTab, setActiveTab}) => {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
-const tabs = ['Home', 'Team', "AMIGMUN'25", 'Achievements'];
+const tabs = ['Home', 'Team', "AMIGMUN'26", 'Achievements'];
 
 return (
     <>

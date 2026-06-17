@@ -10,7 +10,7 @@ export default class AlumniGrid extends Component {
         {members.map((member) => (
           <div key={member.id} className="member-card">
             <h3 className='ctext cname' >{member.name}</h3>
-            <p className='ctext'  style={{marginBottom:'3vw'}} >{member.post}</p>
+            <p className='ctext'  style={{marginBottom:'2.5vw'}} >{member.post}</p>
           </div>
         ))}
       </div>

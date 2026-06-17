@@ -92,7 +92,7 @@ gap: 5vw;
   display: flex;
   flex-direction: column;
   padding-left: 10vw;
-  background-color: #0578FF;
+  background-color: #0068de;
   padding: 3vw;
 }
 
@@ -115,7 +115,7 @@ gap: 5vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #5FA9FF;
+  background-color: #004797;
   padding-top: 2vw;
   gap: 1vw;
 }

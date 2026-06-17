@@ -6,7 +6,7 @@ import Navbar from './components/Navbar.jsx'
 import tsLogo from "../src/assets/ts.svg"
 import pic from "../src/assets/pic.svg"
 import yt from "../src/assets/yt.svg"
-import info from "../src/assets/info.jpg"
+import info from "../src/assets/info.jpeg"
 
 function App() {
 //   const url = 'https://techsyndicate.us'
@@ -21,10 +21,15 @@ function App() {
       <img src={pic} alt="" className='Hero'/>
 
       <svg width="100%" height="201" viewBox="0 0 1920 201" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="1920" height="67" fill="#0578FF"/>
-        <rect y="134" width="1920" height="67" fill="#CDE4FF"/>
+        <rect y="0" width="1920" height="67" fill="#a8cefa"/>
+        <rect y="67" width="1920" height="67" fill="#2a94ff"/>
+        <rect y="134" width="1920" height="67" fill="#0060bf"/>
+        
+        {/* <rect width="1920" height="67" fill="#0578FF"/>
+        
         <rect y="67" width="1920" height="67" fill="#5FA9FF"/>
         <rect y="67" width="1920" height="67" fill="#5FA9FF"/>
+        <rect y="67" width="1920" height="67" fill="#5FA9FF"/> */}
       </svg>
 
       <div className="info">
@@ -52,17 +57,17 @@ function App() {
         </div>
       </div>
 
-      <div style={{width:'100%', height:'3.5vw', backgroundColor:'#CDE4FF'}}></div>
-      <div style={{width:'100%', height:'3.5vw', backgroundColor:'#5FA9FF'}}></div>
+      <div style={{width:'100%', height:'3.5vw', backgroundColor:'#a8cefa'}}></div>
+      <div style={{width:'100%', height:'3.5vw', backgroundColor:'#3a96fe'}}></div>
 
       <div className="contact">
         <div className="headCon">Contact Us</div>
         <div className="conInfo">
           vparashar@aisg46.amity.edu (Teacher In-charge)
           <br />
-          parth.katoch@ais.amity.edu   (Student In-charge)
+          vanya.saluja@ais.amity.edu   (Student In-charge)
         </div>
-      </div>
+      </div> 
 
       <div className="footer">
         <p className="headFooter">Our Social Links</p>
@@ -71,7 +76,7 @@ function App() {
         </p>
         <div className="socials1">
 
-          <a href="https://www.instagram.com/munsocietyaisg46/">
+          <a href="https://www.instagram.com/aisg46munsociety/">
             <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="30" cy="30.6875" r="29.5" stroke="white"/>
               <circle cx="30" cy="30.6875" r="29.5" stroke="white"/>
@@ -81,13 +86,13 @@ function App() {
             </svg>
           </a>
 
-          <a href="https://www.youtube.com/watch?v=BV46b6M1Hps">
+          <a href="https://www.youtube.com/watch?v=UC5h3ocirmo">
             <img src={yt} alt="" />
           </a>
         </div>
 
         <div className="ts">
-          <div className="school">Amity International School Sector-46 © 2025</div>
+          <div className="school">Amity International School Sector-46 © 2026</div>
           <div className="love">Made with 🤍 by Yuvraj & Ishit</div>
           <a href="https://techsyndicate.us" style={{width:'3vw', alignSelf:'center', marginBottom:'1vw'}}>
             <img src={tsLogo} alt="" style={{width:'3vw', alignSelf:'center', marginBottom:'1vw'}}/>

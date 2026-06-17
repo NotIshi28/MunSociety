@@ -10,6 +10,9 @@
 }
 
 .member-card{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     width: 18%;
     /* width: auto; */
     border: 0.1vw solid black;
@@ -18,6 +21,28 @@
     text-align: left;
     /* padding: 1vw; */
     margin-bottom: 2vw;
+}
+
+.member-photo{
+    width: 100%;
+    aspect-ratio: 4 / 4.5;
+    overflow: hidden;
+}
+
+.member-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.card-text{
+    min-height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.5vw 0.2vw;
 }
 
 @media screen and (max-width: 1024px) {

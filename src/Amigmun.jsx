@@ -36,11 +36,11 @@ const Amigmun = () => {
         return () => clearInterval(timer);
       }, []);
 
-    const [activeTab, setActiveTab] = useState("AMIGMUN'25");
+    const [activeTab, setActiveTab] = useState("AMIGMUN'26");
     return (
         <>
             <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-            <div className='amigHead'>AMIGMUN ‘25 is Here!</div>
+            <div className='amigHead'>AMIGMUN ‘26 is Coming</div>
             <div className="lineGrp">
                 <div className="l1"></div>
                 <div className="l2"></div>
@@ -111,10 +111,11 @@ const Amigmun = () => {
               </div>
 
             </div>
-
+            
+            
             <div style={{width:'100%', height:'3.5vw', background: 'linear-gradient(90deg, #0578FF -5.97%, #5FA9FF 157.36%)', marginTop:'5vw'}}></div>
             <div style={{width:'100%', height:'3.5vw', backgroundColor:'#5FA9FF'}}></div>
-            <div style={{width:'100%', height:'3.5vw', backgroundColor:'#CDE4FF'}}></div>
+            <div style={{width:'100%', height:'3.5vw', backgroundColor:'#a8cefa'}}></div>
 
             <h1 className='sec' style={{marginTop:'5vw'}}>Committees and Agendas</h1>
 
@@ -202,7 +203,7 @@ const Amigmun = () => {
             <h1 className='sec' style={{marginTop:'5vw'}}>Gallery</h1>
 
             <div className="video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/x1eYbnp_OPw?si=i6jfLKEe6uni3Mxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Py1GnMi2Jb0?si=XVA5PL74zERT4mvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
             <div className="img">

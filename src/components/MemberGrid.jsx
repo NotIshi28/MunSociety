@@ -11,10 +11,12 @@ export default class MemberGrid extends Component {
         <div className="member-grid">
           {members.map((member) => (
             <div key={member.id} className="member-card">
-              <img style={{width:'100%'}} src={member.img} alt="Logo"/>
+              <div className="member-photo">
+                <img src={member.img} alt={member.name} />
+              </div>
               <div className="card-text">
-                <h3 className='ctext cname' >{member.name}</h3>
-                <p className='ctext '  style={{marginBottom:'2vw'}} >{member.post}</p>
+                <h3 className='ctext cname'>{member.name}</h3>
+                <p className='ctext'>{member.post}</p>
               </div>
             </div>
           ))}
@@ -25,7 +27,7 @@ export default class MemberGrid extends Component {
             <div key={member.id} className="member-card">
               <div className="card-text">
                 <h3 className='ctext cname' >{member.name}</h3>
-                <p className='ctext '  style={{marginBottom:'2vw'}} >{member.post}</p>
+                <p className='ctext '  style={{marginBottom:'1.8vw'}} >{member.post}</p>
               </div>
             </div>
           ))}
