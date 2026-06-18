@@ -7,7 +7,7 @@ import collage from '../src/assets/collage.png'
 const Amigmun = () => {
 
     const calculateTimeLeft = () => {
-        const targetDate = new Date('2025-07-23T00:00:00');
+        const targetDate = new Date('2026-07-22T00:00:00');
         const now = new Date();
         const difference = targetDate - now;
     
@@ -46,7 +46,7 @@ const Amigmun = () => {
                 <div className="l2"></div>
             </div>
 
-            {/* <div className="countdown">
+             {/* <div className="countdown">
                 <div>
                     {timeLeft.days !== undefined ? (
                     <>
@@ -59,10 +59,10 @@ const Amigmun = () => {
                     <span>o damn</span>
                     )}
                 </div>
-            </div> */}
+            </div>  */}
 
 
-            <h1 className='sec'>Secretariat</h1>
+            <h1 className='sec'>Secretariat 2025</h1>
 
             <div className="sec-grp">
               <div className="sec-cards">
@@ -117,7 +117,7 @@ const Amigmun = () => {
             <div style={{width:'100%', height:'3.5vw', backgroundColor:'#5FA9FF'}}></div>
             <div style={{width:'100%', height:'3.5vw', backgroundColor:'#a8cefa'}}></div>
 
-            <h1 className='sec' style={{marginTop:'5vw'}}>Committees and Agendas</h1>
+            <h1 className='sec' style={{marginTop:'5vw'}}>Committees & Agendas 2025 </h1>
 
             <div className="com-grp">
               {committees.map((committee)=>(
