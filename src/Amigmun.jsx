@@ -40,7 +40,7 @@ const Amigmun = () => {
     return (
         <>
             <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-            <div className='amigHead'>AMIGMUN ‘26 is Coming</div>
+            <div className='amigHead'>AMIGMUN ‘26 is Coming Soon!</div>
             <div className="lineGrp">
                 <div className="l1"></div>
                 <div className="l2"></div>
