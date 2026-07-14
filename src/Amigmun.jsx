@@ -131,8 +131,7 @@ const Amigmun = () => {
                       )}
                       {committee.executiveBoard.coChairperson && (
                         <div>
-                          <b>Co Chairperson - </b>{committee.executiveBoard.coChairperson} <br />
-                          <b>Co Chairperson - </b>{committee.executiveBoard.coChairperson1}
+                          <b>Co Chairperson - </b>{committee.executiveBoard.coChairperson}
                         </div>
                       )}
                       {committee.executiveBoard.viceChairperson && (
@@ -185,10 +184,20 @@ const Amigmun = () => {
                           <b>Vice President Of USA - </b>{committee.executiveBoard.vicePresidentOfUSA}
                         </div>
                       )}
+                      {committee.executiveBoard.chiefOfRAW && (
+                        <div>
+                          <b>Chief of RAW - </b>{committee.executiveBoard.chiefOfRAW}
+                        </div>
+                      )}
+                      {committee.executiveBoard.scribe && (
+                        <div>
+                          <b>Scribe - </b>{committee.executiveBoard.scribe}
+                        </div>
+                      )}
                     </div>
                     <div className="socials ltext">
-                      <div>Whatsapp: <a target="_blank" rel="noopener noreferrer" href={committee.whatsapp}></a></div>
-                      <div>Matrix: <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing'>Click Here</a></div>
+                      <div>Whatsapp: <a target="_blank" rel="noopener noreferrer" href={committee.whatsapp}>Click Here</a></div>
+                      <div>Matrix: <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/spreadsheets/d/1V2ifd6656mbRxVbN24UUou3RERRUsnyWmDObj8f-Ois/edit?usp=sharing'>Click Here</a></div>
                       <div>Background Guide: {committee.backgroundGuide ? <a target="_blank" rel="noopener noreferrer" href={committee.backgroundGuide}>Click Here</a> : 'Yet to be uploaded'} </div>
                     </div>
                   </div>
