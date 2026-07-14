@@ -4,6 +4,7 @@ import { Navigate } from 'react-router-dom'
 import App from './App.jsx'
 import Team from  './Team.jsx'
 import Amigmun from './Amigmun.jsx'
+import Amigmun2025 from './Amigmun2025.jsx'
 import Achievements from './Achievements.jsx'
 import './index.css'
 import {
@@ -22,10 +23,6 @@ const router = createBrowserRouter([
     element: <Navigate to='/' />,
   },
   {
-    path:"/AMIGMUN'26",
-    element: <Navigate to='/amigmun' />
-  },
-  {
     path: "/about",
     element: <h1>About</h1>,
   },
@@ -34,8 +31,12 @@ const router = createBrowserRouter([
     element: <Team/>,
   },
   {
-    path:"/amigmun",
+    path: "/amigmun",
     element: <Amigmun/>
+  },
+  {
+    path: "/amigmun/2025",
+    element: <Amigmun2025/>
   },
   {
     path: "/achievements",

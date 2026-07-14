@@ -63,9 +63,9 @@ function App() {
       <div className="contact">
         <div className="headCon">Contact Us</div>
         <div className="conInfo">
-          vparashar@aisg46.amity.edu (Teacher In-charge)
+          vparashar@aisg46.amity.edu.in (Teacher In-charge)
           <br />
-          vanya.saluja@ais.amity.edu   (Student In-charge)
+          vanya.saluja@ais.amity.edu.in   (Student In-charge)
         </div>
       </div> 
 

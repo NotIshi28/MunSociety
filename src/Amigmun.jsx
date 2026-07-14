@@ -7,7 +7,7 @@ import collage from '../src/assets/collage.png'
 const Amigmun = () => {
 
     const calculateTimeLeft = () => {
-        const targetDate = new Date('2026-07-22T00:00:00');
+        const targetDate = new Date('2026-07-21T00:00:00');
         const now = new Date();
         const difference = targetDate - now;
     
@@ -32,8 +32,7 @@ const Amigmun = () => {
           setTimeLeft(calculateTimeLeft());
         }, 1000);
     
-        // Clear interval if component unmounts
-        return () => clearInterval(timer);
+        return () => clearInterval(timer); //clear interval if comp unmount
       }, []);
 
     const [activeTab, setActiveTab] = useState("AMIGMUN'26");
@@ -117,7 +116,7 @@ const Amigmun = () => {
             <div style={{width:'100%', height:'3.5vw', backgroundColor:'#5FA9FF'}}></div>
             <div style={{width:'100%', height:'3.5vw', backgroundColor:'#a8cefa'}}></div>
 
-            <h1 className='sec' style={{marginTop:'5vw'}}>Committees & Agendas 2025 </h1>
+            <h1 className='sec' style={{marginTop:'5vw'}}>Committees & Agendas 2026 </h1>
 
             <div className="com-grp">
               {committees.map((committee)=>(
@@ -188,9 +187,9 @@ const Amigmun = () => {
                       )}
                     </div>
                     <div className="socials ltext">
-                      <div>Whatsapp: <a target="_blank"  href={committee.whatsapp}>Click Here</a> </div>
-                      <div>Matrix: <a target="_blank" href='https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing'>Click Here</a></div>
-                      <div>Background Guide: {committee.backgroundGuide ? <a target="_blank" href={committee.backgroundGuide}>Click Here</a> : 'Yet to be uploaded'} </div>
+                      <div>Whatsapp: <a target="_blank" rel="noopener noreferrer" href={committee.whatsapp}></a></div>
+                      <div>Matrix: <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/spreadsheets/d/1PEVA6-omhAO_24l6qFqwB1W9Q_SXVAZgtFP3TAGbRDw/edit?usp=sharing'>Click Here</a></div>
+                      <div>Background Guide: {committee.backgroundGuide ? <a target="_blank" rel="noopener noreferrer" href={committee.backgroundGuide}>Click Here</a> : 'Yet to be uploaded'} </div>
                     </div>
                   </div>
               ))}
@@ -203,7 +202,7 @@ const Amigmun = () => {
             <h1 className='sec' style={{marginTop:'5vw'}}>Gallery</h1>
 
             <div className="video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Py1GnMi2Jb0?si=XVA5PL74zERT4mvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Py1GnMi2Jb0?si=XVA5PL74zERT4mvU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
 
             <div className="img">

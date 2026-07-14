@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { Link, redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from "../assets/logo.png"
 
 const Navbar = ({activeTab, setActiveTab}) => {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
-const tabs = ['Home', 'Team', "AMIGMUN'26", 'Achievements'];
+const [isArchiveOpen, setIsArchiveOpen] = useState(false);
+const archiveYears = ['2025'];
+const tabs = [{ name: 'Home', path: '/' }, { name: 'Team', path: '/team' }, { name: "AMIGMUN'26", path: '/amigmun' }, { name: 'Achievements', path: '/achievements' }];
 
 return (
     <>
@@ -22,45 +24,80 @@ return (
             
             <div className="elements desktop-nav">
                 {tabs.map((tab, index) => (
-                    <Link to={`/${tab.toLowerCase()}`} key={index} style={{textDecoration:'none', color:'black'}}>
+                    <Link to={tab.path} key={index} style={{textDecoration:'none', color:'black'}}>
                         <div
-                            key={index}
                             onClick={() => {
-                                setActiveTab(tab);
-                                return redirect("/"+tab)
+                                setActiveTab(tab.name);
                             }}
                             style={{cursor: 'pointer'}}
-                            className={ activeTab === tab ? 'element element-selected' : 'element'}
+                            className={ activeTab === tab.name ? 'element element-selected' : 'element'}
                         >
-                            {tab}
+                            {tab.name}
                         </div>
                     </Link>
                 ))}
-            </div>
 
+                  {/* archive dropdown | desktop */}
+                  <div className="archive-dropdown">
+                      <div
+                        className={'element archive-dropdown-trigger'}
+                        style={{cursor: 'pointer'}}
+                      >
+                        <span style={activeTab === 'Archive' ? {textDecoration:'underline #8CC1FF 5px', textUnderlinePosition:'under'} : {}}>Archive</span><span className="arrow">▼</span>
+                      </div>
+                      <div className="archive-dropdown-menu">
+                        {archiveYears.map((year) => (
+                            <Link to={`/amigmun/${year}`} key={year} style={{textDecoration:'none', color:'black'}} onClick={() => setActiveTab('Archive')}>
+                                <div className="archive-dropdown-item">{year}</div>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </div>
         </div>
         
         <div className={`mobile-nav ${isMenuOpen ? 'mobile-nav-open' : ''}`}>
             {tabs.map((tab, index) => (
-                <Link to={`/${tab.toLowerCase()}`} key={index} style={{textDecoration:'none', color:'black'}}>
+                <Link to={tab.path} key={index} style={{textDecoration:'none', color:'black'}}>
                     <div
-                        key={index}
                         onClick={() => {
-                            setActiveTab(tab);
+                            setActiveTab(tab.name);
                             setIsMenuOpen(false);
-                            return redirect("/"+tab)
                         }}
                         style={{cursor: 'pointer'}}
-                        className={ activeTab === tab ? 'mobile-element mobile-element-selected' : 'mobile-element'}
+                        className={ activeTab === tab.name ? 'mobile-element mobile-element-selected' : 'mobile-element'}
                     >
-                        {tab}
+                        {tab.name}
+                    </div>
+                </Link>
+            ))}
+
+              {/* archive dropdown | mobile */}
+              <div 
+                  className={activeTab === 'Archive' ? 'mobile-element mobile-element-selected' : 'mobile-element'}
+                  onClick={() => setIsArchiveOpen(!isArchiveOpen)}
+                  style={{cursor: 'pointer', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}
+              >
+                  <span>Archive</span>
+                  <span style={{fontSize: '14px'}}>{isArchiveOpen ? '▲' : '▼'}</span>
+              </div>
+              {isArchiveOpen && archiveYears.map((year) => (
+                  <Link to={`/amigmun/${year}`} key={year} style={{textDecoration:'none', color:'black'}}>
+                      <div
+                        onClick={() => {
+                            setActiveTab('Archive');
+                            setIsMenuOpen(false);
+                        }}
+                        className="mobile-element mobile-sub-element"
+                        style={{paddingLeft: '50px'}}
+                      >
+                        {year}
                     </div>
                 </Link>
             ))}
         </div>
     </>
 )
-  
 }
 
 export default Navbar
