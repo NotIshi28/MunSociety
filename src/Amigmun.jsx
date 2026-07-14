@@ -77,36 +77,40 @@ const Amigmun = () => {
                   <span>IP Head</span>
               </div>
               <div className="sec-cards">
-                  <b>Manvi Yadav</b>
+                  <b>Parth Katoch</b>
                   <span>Secretary General</span>
               </div>
               <div className="sec-cards">
-                  <b>Rahil Kharbanda</b>
+                  <b>Meet Kaur</b>
                   <span>Deputy Secretary General</span>
               </div>
               <div className="sec-cards">
-                  <b>Parth Katoch</b>
+                  <b>Vanya Saluja</b>
                   <span>USG Logistics</span>
               </div>
               <div className="sec-cards">
-                  <b>Ishit Rastogi</b>
+                  <b>Disha Dhir</b>
+                  <span>USG Delegate Affairs</span>
+              </div>
+              <div className="sec-cards">
+                  <b>Ayush Sharma</b>
                   <span>USG Technical Affairs</span>
               </div>
               <div className="sec-cards">
-                  <b>Swastik Seth</b>
+                  <b>Naitik Agarwal</b>
                   <span>USG Videography</span>
               </div>
               <div className="sec-cards">
-                  <b>Taravali Sharma</b>
+                  <b>Ekam Sibia</b>
                   <span>Editor-in-Chief</span>
               </div>
               <div className="sec-cards">
-                  <b>Yuvika Satija</b>
+                  <b>Sanvi Bhatia</b>
                   <span>Associate Editor</span>
               </div>
               <div className="sec-cards">
-                  <b>Devangi Majumdar</b>
-                  <span>Art Editor</span>
+                  <b>Kashvi Sharma</b>
+                  <span>Associate Editor</span>
               </div>
 
             </div>
