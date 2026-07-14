@@ -39,7 +39,7 @@ const Amigmun = () => {
     return (
         <>
             <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-            <div className='amigHead'>AMIGMUN ‘26 is Coming Soon!</div>
+            <div className='amigHead'>AMIGMUN ‘26 is Here!</div>
             <div className="lineGrp">
                 <div className="l1"></div>
                 <div className="l2"></div>
@@ -61,7 +61,7 @@ const Amigmun = () => {
             </div>  */}
 
 
-            <h1 className='sec'>Secretariat 2025</h1>
+            <h1 className='sec'>Secretariat 2026</h1>
 
             <div className="sec-grp">
               <div className="sec-cards">
@@ -73,7 +73,7 @@ const Amigmun = () => {
                   <span>IT Head</span>
               </div>
               <div className="sec-cards">
-                  <b>Shweta Ahluwalia</b>
+                  <b>Ms. Shweta Ahluwalia</b>
                   <span>IP Head</span>
               </div>
               <div className="sec-cards">
