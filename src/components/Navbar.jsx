@@ -87,6 +87,7 @@ return (
                         onClick={() => {
                             setActiveTab('Archive');
                             setIsMenuOpen(false);
+                            setIsArchiveOpen(false);
                         }}
                         className="mobile-element mobile-sub-element"
                         style={{paddingLeft: '50px'}}
